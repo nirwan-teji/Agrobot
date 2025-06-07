@@ -32,16 +32,16 @@ Agrobot is an AI-powered agricultural assistant platform designed to empower far
 
 1. cd backend
 2. python -m venv venv
-3. a)**On Linux/Macos** source venv/bin/activate 
-  b)**On Windows** venv\Scripts\activate
+3. . **On Linux/Macos** source venv/bin/activate
+   . **On Windows** venv\Scripts\activate    
 4. pip install -r requirements.txt
 5. uvicorn app.main:app
 
 ### Frontend
 
-cd frontend
-npm install
-npm start
+1. cd frontend
+2. npm install
+3.  npm start
 
 
 ## Usage
